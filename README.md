@@ -46,3 +46,15 @@ npm test -- --safari
 * The `static` folder contains any files that you want copied as-is into the final build. It contains an `index.html` file which loads the `index.js` file.
 
 * The `tests` folder contains your Rust unit tests.
+
+## Troubleshooting
+
+**The project doesn't compile**.
+
+In order to compile this project you need the *nightly* version of Rust, and the ability to compile to WASM. You can install all of this by running:
+
+```
+rustup install nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup default nightly
+```
