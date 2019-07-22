@@ -58,3 +58,8 @@ rustup install nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 rustup default nightly
 ```
+
+**Note**
+
+The project may take a few minutes to start the first time.
+Please be patient!
