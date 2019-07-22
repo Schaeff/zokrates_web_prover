@@ -61,5 +61,5 @@ rustup default nightly
 
 **Note**
 
-Project may take few minutes to start first time.
+The project may take a few minutes to start the first time.
 Please be patient!
